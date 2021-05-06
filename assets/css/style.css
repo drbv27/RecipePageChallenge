@@ -1,7 +1,16 @@
-h1 {
+.title {
     font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    
 }
 
-h2 {
+.description {
     font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 14.63px;
 }
