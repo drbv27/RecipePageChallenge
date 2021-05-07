@@ -14,3 +14,242 @@
     font-weight: 500;
     line-height: 14.63px;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.content {
+    margin: 0 auto;
+    margin-top: 52px;
+    margin-bottom: 215px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap:50px
+}
+.photo {
+    width: 100%;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.titulo{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.descripcion {
+    display: flex;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
+    width: 65%;
+}
+
+.descripcion img{
+    width: 13px;
+    color: #C4C4C4;
+    margin-right: 12px;
+}
+
+
+.titulos {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.content1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.specs{
+    align-self:flex-start;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    gap: 30px;
+    justify-content: space-around;
+}
+.specs .spec{
+    display: flex;
+    gap: 12px;
+}
+.specs .spec .datos {
+    width:77px;
+}
+.specs .spec .datos .info {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+.specs .spec .datos .dato{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F2994A;
+}
+
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 60%;
+}
+.ingredients .ingredient{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.ingredients .ingredient .subtitle{
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.ingredients p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+    flex:1;
+}
+.ingredients .check{
+    display: flex;
+    gap: 17px;
+    
+}
+.ingredients .check .checkbox{
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid #828282;
+}
+.instructions{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.instructions .step{
+    display: flex;
+    gap: 12px;
+}
+.instructions .step p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    flex: 1;
+}
+.instructions .step .number{
+    width: 36px;
+    height: 36px;
+    background: #F2994A;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+.instructions .step .number p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    margin: 10px;   
+}
+
+.source{
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    /* Gray 4 */
+
+    color: #BDBDBD;
+}
+
+.author {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #828282;
+}
+
+.author{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #9c9a9a;
+}
+
+.author a{
+    color: #9c9a9a;
+}
+
+@media screen and (max-width:900px){
+    .titulo{
+        font-size: 24px;
+    }
+    .content1{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .descripcion{
+        width: 100%;
+    }
+    .specs{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+    }
+    .content{
+        width: 95%;
+    }
+    .ingredients{
+        width: 100%;
+    }
+}
