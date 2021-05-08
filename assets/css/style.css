@@ -196,9 +196,17 @@
     line-height: 150%;
     /* identical to box height, or 24px */
 
-
     /* Gray 4 */
 
+    color: #BDBDBD;
+}
+
+.source a{
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
     color: #BDBDBD;
 }
 
@@ -215,14 +223,6 @@
     color: #828282;
 }
 
-.author{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #9c9a9a;
-}
 
 .author a{
     color: #9c9a9a;
@@ -273,6 +273,7 @@
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
+    font-size: 72px;
     text-transform: none;
     line-height: 1;
   
