@@ -256,11 +256,12 @@
 
 @font-face {
     font-family: 'icomoon';
-    src:  url('fonts/icomoon.eot?c2gmj6');
-    src:  url('fonts/icomoon.eot?c2gmj6#iefix') format('embedded-opentype'),
-      url('fonts/icomoon.ttf?c2gmj6') format('truetype'),
-      url('fonts/icomoon.woff?c2gmj6') format('woff'),
-      url('fonts/icomoon.svg?c2gmj6#icomoon') format('svg');
+    /* src: url('../fonts/icomoon.eot'); */
+    src:  url('../fonts/icomoon.eot?c2gmj6');
+    src:  url('../fonts/icomoon.eot?c2gmj6#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?c2gmj6') format('truetype'),
+      url('../fonts/icomoon.woff?c2gmj6') format('woff'),
+      url('../fonts/icomoon.svg?c2gmj6#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
